@@ -5,15 +5,18 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".Main3Activity">
 
-    <fragment
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/map"
-        android:layout_weight="5"
-        android:name="com.google.android.gms.maps.SupportMapFragment"/>
-
-
-
+        android:layout_weight="6"
+        android:id="@+id/iv3"
+        android:src="@drawable/ibk"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBack3"
+        android:layout_weight="1"
+        android:text="지도로 돌아가기"/>
 </LinearLayout>
